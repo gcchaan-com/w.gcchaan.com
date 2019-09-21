@@ -1,0 +1,17 @@
+{
+    "projectName": "w.gcchaan.com",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "none",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "src/public",
+            "BuildCommand": "cd src && npm run build",
+            "StartCommand": "cd src && npm run start"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

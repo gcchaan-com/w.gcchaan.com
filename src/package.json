@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@gcchaan/w.gcchaan.com",
+  "scripts": {
+    "start": "hugo server -D",
+    "prebuild": "git submodule update --init --recursive",
+    "build": "hugo"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3"
+  }
+}

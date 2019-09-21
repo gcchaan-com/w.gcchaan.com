@@ -1,0 +1,14 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "wgcchaancom-production-20190922023146-authRole",
+            "UnauthRoleArn": "arn:aws:iam::601881022313:role/wgcchaancom-production-20190922023146-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::601881022313:role/wgcchaancom-production-20190922023146-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "wgcchaancom-production-20190922023146-deployment",
+            "UnauthRoleName": "wgcchaancom-production-20190922023146-unauthRole",
+            "StackName": "wgcchaancom-production-20190922023146",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:601881022313:stack/wgcchaancom-production-20190922023146/5ea3c620-dc95-11e9-b986-0e7851ff27a6"
+        }
+    }
+}
