@@ -48,7 +48,7 @@
                 },
                 "WebsiteConfiguration": {
                     "IndexDocument": "index.html",
-                    "ErrorDocument": "index.html"
+                    "ErrorDocument": "404.html"
                 },
                 "CorsConfiguration": {
                     "CorsRules": [
