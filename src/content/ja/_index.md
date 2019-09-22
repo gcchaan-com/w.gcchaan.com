@@ -5,7 +5,7 @@ linkTitle = "GcchaanWiki"
 +++
 
 {{% blocks/lead color="primary" %}}
-ハウツーや調べていることを書いていくよ
+備忘録。ハウツーや調べていることも書くかも
 {{% /blocks/lead %}}
 
 <!--{{< blocks/section >}}
