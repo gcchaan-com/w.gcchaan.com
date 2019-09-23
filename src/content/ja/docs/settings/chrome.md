@@ -25,3 +25,22 @@ description: >
 PWAサイトへアクセスし、Chromeのメニューからインストールする
 
   - [Twitter Lite](https://mobile.twitter.com/)
+
+### 検索エンジン
+
+```
+https://duckduckgo.com/?q=%s
+https://www.amazon.co.jp/s?k=%s&__mk_ja_JP=カタカナ
+https://www.amazon.co.jp/s?k=%s&i=digital-text&__mk_ja_JP=カタカナ
+https://qiita.com/search?q=%s
+https://b.hatena.ne.jp/search/text?q=%s
+https://connpass.com/search/?q=%s
+https://twitter.com/search?f=tweets&q=%s
+https://www.youtube.com/results?search_query=%s&page={startPage?}
+https://drive.google.com/drive/search?q=%s
+https://ejje.weblio.jp/content/%s
+https://info.finance.yahoo.co.jp/search/?query=%s
+```
+
+[既定の検索エンジンを設定する](https://support.google.com/chrome/answer/95426)
+
