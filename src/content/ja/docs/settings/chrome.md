@@ -19,7 +19,9 @@ description: >
 - Tag Assistant (by Google)
 - The Great Suspender
 - Wappalyzer
+- [Library Detector](https://chrome.google.com/webstore/detail/library-detector/cgaocdmhkmfnkdkbnckgmpopcbpaaejo)
 - Weblio ポップアップ英和辞典
+- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 ### Chrome PWA
 PWAサイトへアクセスし、Chromeのメニューからインストールする
