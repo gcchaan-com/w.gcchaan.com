@@ -1,7 +1,7 @@
 baseURL = "/"
 # languageCode = "en-us"
 title = "Gcchaan Wiki"
-theme = "docsy"
+theme = ["github.com/google/docsy", "github.com/google/docsy/dependencies"]
 
 enableRobotsTXT = true
 
@@ -99,3 +99,15 @@ no = 'Sorry to hear that. Please <a href="https://github.com/gcchaan-com/w.gccha
 	url = "https://github.com/gcchaan-com/w.gcchaan.com"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
+
+[module]
+	proxy = "direct"
+	[module.hugoVersion]
+		extended = true
+		min = "0.73.0"
+	[[module.imports]]
+		path = "github.com/google/docsy"
+		disable = false
+	[[module.imports]]
+		path = "github.com/google/docsy/dependencies"
+		disable = false
