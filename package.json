@@ -4,7 +4,8 @@
   "scripts": {
     "start": "hugo server -D",
     "prebuild": "git submodule update --init --recursive",
-    "build": "hugo"
+    "build": "hugo",
+    "update-theme": "git submodule update --remote"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
