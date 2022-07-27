@@ -36,9 +36,10 @@ description: >
     - `defaults write -g ApplePressAndHoldEnabled -bool TRUE`
     - ログアウトか再起動が必要
 - FnキーでのF1〜F12入力の標準設定
-- 自動キャピタライズ無効化
-- ダブルスペースでのピリオド挿入無効化
-- スマートクオート無効化
+- ユーザ辞書
+    - 「文頭を自動的に大文字にする」のチェックを外す
+    - 「スペースバーを2回押してピリオドを入力」のチェックを外す
+    - スマートクオート無効化
 - 入力ソース追加
     - `google-japanese-ime` をインストールしておく
 
@@ -103,9 +104,9 @@ cask 'google-chrome'
 cask 'google-japanese-ime'
 cask 'hyperswitch'
 cask 'imageoptim'
-cask 'intellij-idea-ce'
 cask 'insomnia'
 cask 'iterm2'
+cask 'jetbrains-toolbox'
 cask 'karabiner-elements'
 cask 'keycastr'
 cask 'kindle'
