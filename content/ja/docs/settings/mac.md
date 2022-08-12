@@ -35,8 +35,10 @@ description: >
 - 連続入力の有効化
     - `defaults write -g ApplePressAndHoldEnabled -bool TRUE`
     - ログアウトか再起動が必要
+    - 入力ソース「日本語 - ローマ字入力」（Japanese - Romaji）の設定で英字（Romaji）のチェックを入れて入力ソース「ABC[U.S.]」を削除する必要もある
 - FnキーでのF1〜F12入力の標準設定
 - ユーザ辞書
+    - 「英字入力中にスペルを自動変換」のチェックを外す
     - 「文頭を自動的に大文字にする」のチェックを外す
     - 「スペースバーを2回押してピリオドを入力」のチェックを外す
     - スマートクオート無効化
@@ -44,6 +46,11 @@ description: >
     - `google-japanese-ime` をインストールしておく
 
 Karabinar 設定
+
+
+### サウンド(Sound)
+
+- サウンドエフェクトの「起動時にサウンドを再生」（Play sound on startup）のチェックを外す
 
 
 ### Finder
@@ -58,17 +65,32 @@ Karabinar 設定
 
 ### ターミナル・シェル設定
 
-- iTerm2インストール
-- Homebrewインストール
+iTerm2のProfiles
+- Text
+    - サイズ: 12 -> 14pt
+- Window
+    - Transparency: 20%
+- Terminal
+    - Scrollback Buffer: 10000
+
+Zsh
+- oh-my-zsh
+- zsh-users/zsh-syntax-highlighting
+- zsh-autosuggestions
+- zsh-users/zsh-history-substring-search
+- zsh-completions
+    - oh-my-zshでgitプラグイン入れてればgitの補完とエイリアスが対応されるので、もし他に補完したいものがあればインストールする
 
 
 ### その他
 
+- Homebrewインストール
 - NightShift常時稼働設定
 - 英語に変更
 - フォームのあるアプリでファンクションキーをタッチバーに表示
 - SSH鍵コピー
 - 壁紙設定
+- Amazon Music は amazon.co.jp で `Your Games & Software Library` からインストーラーをダウンロード
 
 
 ### Brewfile
