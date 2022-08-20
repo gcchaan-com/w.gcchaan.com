@@ -108,11 +108,13 @@ brew 'mysql-client'
 brew 'nkf'
 brew 'peco'
 brew 'ripgrep'
+brew 'tldr'
 brew 'tmux'
 brew 'tree'
 brew 'wget'
 brew 'yarn'
 brew 'zsh-completions'
+cask 'adobe-acrobat-reader'
 cask 'altair-graphql-client'
 cask 'amazon-music'
 cask 'authy'
@@ -156,6 +158,7 @@ mas "Xcode", id: 497799835
 - git
   - `git config --global user.name "USERNAME"`
   - `git config --global user.email "USERNAME@users.noreply.github.com"`
+  - ~/.config/git/ignore
 
 
 ### Go
@@ -201,15 +204,6 @@ brew 'scala'
 ```
 
 /usr/local/etc/sbtopts の `mem` を4096とか
-
-
-### AWS
-
-SAM
-```bash
-brew tap aws/tap
-brew install aws-sam-cli
-```
 
 
 ### Hugo
