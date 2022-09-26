@@ -53,6 +53,11 @@ Karabinar 設定
 - サウンドエフェクトの「起動時にサウンドを再生」（Play sound on startup）のチェックを外す
 
 
+### Mission Control
+
+ホットコーナー -> 「画面のコーナーへの機能割り当て」からクイックメモの設定をリセットする
+
+
 ### Finder
 
 設定
