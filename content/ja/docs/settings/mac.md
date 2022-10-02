@@ -101,6 +101,7 @@ Zsh
 ### Brewfile
 
 ```.Brewfile
+cask 'alt-tab'
 brew 'coreutils'
 brew 'direnv'
 brew 'gawk'
@@ -131,7 +132,6 @@ cask 'figma'
 cask 'firealpaca'
 cask 'google-chrome'
 cask 'google-japanese-ime'
-cask 'hyperswitch'
 cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2'
